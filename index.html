@@ -1,0 +1,67 @@
+<html>
+    <head>
+<style>
+
+    body{
+        background-color: lightblue;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        width: 100vw;
+    }
+    input{
+        border-radius: 5px;
+        width: 70%;
+        height: 45px;
+    }
+    textarea{
+        width: 70%;
+        height: 45px;
+        border-radius: 5px;
+    }
+    .user{
+        position: relative ;
+
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+        
+        letter-spacing: 1px;
+        margin: 30px 0;
+    }
+    .one{
+        width: 450px;
+        padding: 20px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        border-radius: 10px;
+    }
+    .btn{
+        border: none;
+        border-radius: 5px;
+        background-color: blueviolet;
+        font-size: 16px;
+    }
+</style>
+    </head>
+    <body>
+        <h1>Always remember that if u don't givee back the book in 3 weeks , u will be banned from the library</h1>
+        <br><br>
+        <form class ="container" method="POST" action ="/">
+            <div class="one">
+            <div class="user">
+                <h2>The reader  name</h2>
+            <input  name="userName" placeholder="tell us your name">
+        </div>
+        <br><br><br><br>
+        <div class="books">
+            <h2>The name of the books</h2>
+            <textarea name="booksName" placeholder="the name of the books that u want to borrow"></textarea>
+        </div>
+            <button class="btn">Click me</button>
+        </div>
+        </form>
+    </body>
+</html>
